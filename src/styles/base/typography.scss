@@ -1,0 +1,12 @@
+@font-face {
+    font-family: CreatoDisplay, sans-serif;
+    src: url('../../assets/fonts/CreatoDisplay-Bold.ttf');
+    src: url('../../assets/fonts/CreatoDisplay-ExtraBold.ttf');
+    src: url('../../assets/fonts/CreatoDisplay-Regular.ttf');
+    src: url('../../assets/fonts/CreatoDisplay-ThinItalic.ttf');
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}

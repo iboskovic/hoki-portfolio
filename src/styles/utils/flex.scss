@@ -1,0 +1,43 @@
+/*
+    utils: flex.scss
+*/
+
+.flex {
+    display: flex;
+
+    &--primary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &--jc {
+        
+        &--center {
+            justify-content: center;
+        }
+
+        &--sb {
+            justify-content: space-between;
+        }
+
+        &--sa {
+            justify-content: space-around;
+        }
+
+        &--end {
+            justify-content: end;
+        }
+    }
+
+    &--align {
+
+        &--center {
+            align-items: center;
+        }
+    }
+
+    &--grow {
+        flex-grow: 1;
+    }
+}

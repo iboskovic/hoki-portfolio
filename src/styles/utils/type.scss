@@ -1,0 +1,75 @@
+/*
+    utils: type.scss
+*/
+
+.type {
+
+    //sizes
+    &--sm {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    &--base {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    &--lg {
+        font-size: 120px;
+        line-height: normal;
+    }
+
+    //weight
+    &--wgt {
+
+        &--thin-italic {
+            font-weight: 300;
+            font-style: italic;
+        }
+        
+        &--regular {
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        &--bold {
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        &--extra-bold {
+            font-weight: 800;
+            font-style: normal;
+        }
+    }
+
+    //colors
+    &--color {
+        &--primary {
+            color:  $color-text-light; 
+        }
+
+        &--secondary {
+            color: $color-text-dark;
+        }
+    }
+
+    //style
+    &--uppercase {
+        text-transform: uppercase;
+    }
+
+    &--capitalize {
+        text-transform: capitalize;
+    }
+
+    //alignment
+    &--center {
+        text-align: center;
+    }
+
+    &--break {
+        word-break: break-word;
+    }
+}

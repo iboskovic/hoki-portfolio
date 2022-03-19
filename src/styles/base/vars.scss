@@ -1,0 +1,37 @@
+/*
+    base: vars.scss
+*/
+
+// unit
+$unit: 4px;
+
+// colors
+
+$color-primary: #1d1d1d1d;
+$color-secondary: #2e2f2e;
+$color-text-light: #cacfc9;
+$color-text-dark: #747673;
+
+$white: #ffffff;
+$black: #000000;
+
+$color-success: #008000;
+$color-error: #ff0000;
+
+// borders
+$border-rounded: $unit;
+$border-circle: 1000px;
+
+// responsive 
+
+$responsive-sm: 576px;
+$responsive-md: 768px;
+$responsive-lg: 992px;
+$responsive-xl: 1200px;
+
+$responsiveConfig: (
+    $responsive-sm: 'sm',
+    $responsive-md: 'md',
+    $responsive-lg: 'lg',
+    $responsive-xl: 'xl',
+);

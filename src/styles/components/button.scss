@@ -1,0 +1,51 @@
+/*
+    components: button.scss
+*/
+
+.btn {
+    // box shadow if exists aswell
+    position: relative;
+    display: inline-block;
+    appearance: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+
+    &:focus {
+        box-shadow: 0 0 2px 2px var(--box-shadow-color);
+        outline: none;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        user-select: none;
+    }
+
+    &--primary {
+
+    }
+
+    &--secondary {
+
+    }
+
+    &--clear {
+
+    }
+
+    // sizes
+    &--sm {
+        font-size: 14px;
+        padding: calc(#{$unit} * 1) calc(#{$unit} * 4);
+    }
+
+    &--base {
+
+    }
+
+    &--md {
+        
+    }
+}
