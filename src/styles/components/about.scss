@@ -1,0 +1,25 @@
+/*
+    components: about.scss for animation
+*/
+
+.about {
+    position: relative;
+    &__image {
+        opacity: 0;
+        transition: all 400ms ease-in-out;
+    }
+    &:hover {
+        .about__image {
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: $white;
+            width: 768px;
+            height: 300px;
+            transition: opacity 400ms ease-in-out;
+        }
+    }
+
+
+}

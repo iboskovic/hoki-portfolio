@@ -1,0 +1,216 @@
+/*
+    utils: spacers.scss
+*/
+
+/*
+    1 - 4px
+    2 - 8px
+    3 - 12px
+    4 - 16px
+    5 - 20px
+    6 - 24px
+    7 - 28px
+    8 - 32px
+    9 - 36px
+    10 - 40px
+
+    bigger 262px
+*/
+.m {
+
+    &--t {
+        
+        &-4 {
+            margin-top: 4;
+        }
+        
+        &-8 {
+            margin-top: 8px;
+        }
+
+        &-12 {
+            margin-top: 12px;
+        }
+
+        &-16 {
+            margin-top: 16px;
+        }
+        
+        &-20 {
+            margin-top: 20px;
+        }
+
+        &-24 {
+            margin-top: 24px;
+        }
+
+        &-28 {
+            margin-top: 28px;
+        }
+        
+        &-32 {
+            margin-top: 32px;
+        }
+
+        &-36 {
+            margin-top: 36px;
+        }
+
+        &-40 {
+            margin-top: 40px;
+        }
+
+        &-242 {
+            margin-top: 242px;
+        }
+
+        &-262 {
+            margin-top: 262px;
+        }
+
+        &-472 {
+            margin-top: 472px;
+        }
+    }
+
+    &--r {
+
+        &-4 {
+            margin-right: 4;
+        }
+        
+        &-8 {
+            margin-right: 8px;
+        }
+
+        &-12 {
+            margin-right: 12px;
+        }
+
+        &-16 {
+            margin-right: 16px;
+        }
+        
+        &-20 {
+            margin-right: 20px;
+        }
+
+        &-24 {
+            margin-right: 24px;
+        }
+
+        &-28 {
+            margin-right: 28px;
+        }
+        
+        &-32 {
+            margin-right: 32px;
+        }
+
+        &-36 {
+            margin-right: 36px;
+        }
+
+        &-40 {
+            margin-right: 40px;
+        }
+
+        &-262 {
+            margin-right: 262px;
+        }
+    }
+
+    &--b {
+
+        &-4 {
+            margin-bottom: 4;
+        }
+        
+        &-8 {
+            margin-bottom: 8px;
+        }
+
+        &-12 {
+            margin-bottom: 12px;
+        }
+
+        &-16 {
+            margin-bottom: 16px;
+        }
+        
+        &-20 {
+            margin-bottom: 20px;
+        }
+
+        &-24 {
+            margin-bottom: 24px;
+        }
+
+        &-28 {
+            margin-bottom: 28px;
+        }
+        
+        &-32 {
+            margin-bottom: 32px;
+        }
+
+        &-36 {
+            margin-bottom: 36px;
+        }
+
+        &-40 {
+            margin-bottom: 40px;
+        }
+
+        &-262 {
+            margin-bottom: 262px;
+        }
+    }
+
+    &--l {
+
+        &-4 {
+            margin-left: 4;
+        }
+        
+        &-8 {
+            margin-left: 8px;
+        }
+
+        &-12 {
+            margin-left: 12px;
+        }
+
+        &-16 {
+            margin-left: 16px;
+        }
+        
+        &-20 {
+            margin-left: 20px;
+        }
+
+        &-24 {
+            margin-left: 24px;
+        }
+
+        &-28 {
+            margin-left: 28px;
+        }
+        
+        &-32 {
+            margin-left: 32px;
+        }
+
+        &-36 {
+            margin-left: 36px;
+        }
+
+        &-40 {
+            margin-left: 40px;
+        }
+
+        &-262 {
+            margin-left: 262px;
+        }
+    }
+}

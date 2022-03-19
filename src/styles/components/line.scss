@@ -1,0 +1,26 @@
+/*
+    components: line.scss
+*/
+
+.line {
+    position: absolute;
+    z-index: 1;
+    
+    &--left {
+        position: fixed;
+        width: 1px;
+        background-color: $color-text-dark;
+        bottom: 0;
+        top: 0;
+        left: 37.5%;
+      }
+      
+    &--right {
+        position: fixed;
+        width: 1px;
+        background-color: $color-text-dark;
+        bottom: 0;
+        top: 0;
+        right: 37.5%;
+      }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import Landing from './app/features/Landing';
+import Landing from './app/pages/landing/Landing';
 
 
 const MainRouter = () => {

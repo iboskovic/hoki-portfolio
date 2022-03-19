@@ -2,3 +2,16 @@
     utils: width.scss
 */
 
+.w {
+    &--100 {
+        width: 100%;
+    }
+
+    &--734 {
+        width: 734px;
+
+        &--max {
+            max-width: 734px;
+        }
+    }
+}

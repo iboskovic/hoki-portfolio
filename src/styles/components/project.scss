@@ -1,0 +1,12 @@
+/*
+    components: project.scss
+*/
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $color-text-light;
+    padding: 0 24px;
+    margin-bottom: 80px;
+}
