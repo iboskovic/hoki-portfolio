@@ -7,7 +7,7 @@ const LayoutMid = () => {
                 <a href="#contact" className="type--color--primary type--uppercase">Contact</a>
             </div>
             <div className="m--t-262 title">
-                <div className="type--lg type--wgt--extra-bold type--color--primary">Design or <span className="type--color--secondary type--wgt--thin-italic">die</span>.</div>
+                <div className="type--lg type--wgt--extra-bold type--color--primary">Design or <span className="type--color--secondary type--wgt--light-italic">die</span>.</div>
                 <div className="type--wgt--regular type--sm type--color--secondary m--l-16 m--t-16">Don't</div>
                 <div className="title__image">
                 </div>
@@ -36,7 +36,7 @@ const LayoutMid = () => {
                 </div>
 
                 <div className="project">
-                    <div className="type--lg type--color--primary type--wgt--bold">Jedemi.<span className="type--wgt--thin-italic type--color--primary">se</span></div>
+                    <div className="type--lg type--color--primary type--wgt--bold">Jedemi.<span className="type--wgt--light-italic type--color--primary">se</span></div>
                     <div>
                         <div className="type--base type--color--secondary type--wgt--bold m--b-8">Lead UX/UI Designer</div>
                         <div className="type--base type--color--secondary type--wgt--regular">Web app</div>
@@ -44,7 +44,7 @@ const LayoutMid = () => {
                 </div>
 
                 <div className="project">
-                    <div className="type--lg type--color--primary type--wgt--bold">Optika <span className="type--wgt--thin-italic type--color--primary">Anda</span></div>
+                    <div className="type--lg type--color--primary type--wgt--bold">Optika <span className="type--wgt--light-italic type--color--primary">Anda</span></div>
                     <div>
                         <div className="type--base type--color--secondary type--wgt--bold m--b-8">UX/UI Designer</div>
                         <div className="type--base type--color--secondary type--wgt--regular">Website</div>
@@ -60,7 +60,7 @@ const LayoutMid = () => {
                 </div>
 
                 <div className="project">
-                    <div className="type--lg type--color--primary type--wgt--bold">Olive <span className="type--wgt--thin-italic type--color--primary">oil</span></div>
+                    <div className="type--lg type--color--primary type--wgt--bold">Olive <span className="type--wgt--light-italic type--color--primary">oil</span></div>
                     <div>
                         <div className="type--base type--color--secondary type--wgt--bold m--b-8">Lead UX/UI Designer</div>
                         <div className="type--base type--color--secondary type--wgt--regular">Website</div>
