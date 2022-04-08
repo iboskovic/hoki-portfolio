@@ -15,6 +15,16 @@
         line-height: normal;
     }
 
+    &--base-plus {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    &--md {
+        font-size: 64px;
+        line-height: normal;
+    }
+
     &--lg {
         font-size: 120px;
         line-height: normal;
@@ -41,6 +51,10 @@
         &--extra-bold {
             font-weight: 800;
             font-style: normal;
+        }
+        &--regular-italic {
+            font-weight: 400;
+            font-style: italic;
         }
     }
 

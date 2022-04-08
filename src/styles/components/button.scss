@@ -23,8 +23,17 @@
         user-select: none;
     }
 
-    &--primary {
+    
 
+    &--primary {
+        background-color: $color-btn;
+        border-radius: 1000px;
+        font-weight: 800;
+        color: $white;
+
+        &:hover {
+            background-color: darken($color-btn, 10%);
+        }
     }
 
     &--secondary {
@@ -42,7 +51,8 @@
     }
 
     &--base {
-
+        font-size: 32px;
+        padding: 96px 48px;
     }
 
     &--md {
